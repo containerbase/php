@@ -31,3 +31,4 @@ jobs:
           command: docker-builder
           image-prefix: ${{ env.OWNER }}
           dry-run: ${{ env.DRY_RUN }}
+          prune: true
