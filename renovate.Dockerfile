@@ -8,7 +8,7 @@ FROM scratch
 
 
 # renovate: datasource=github-releases depName=containerbase/php-prebuild
-ENV PHP_VERSION=7.3.28
+ENV PHP_VERSION=7.3.29
 
 # renovate: datasource=github-releases depName=containerbase/php-prebuild
 ENV PHP_VERSION=7.4.20
