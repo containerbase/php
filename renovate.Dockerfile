@@ -7,11 +7,14 @@
 FROM scratch
 
 
-# renovate: datasource=github-releases depName=containerbase/php-prebuild
+# EOL 2021-12-06
+# renovate: datasource=docker depName=php versioning=docker
 ENV PHP_VERSION=7.3.31
 
-# renovate: datasource=github-releases depName=containerbase/php-prebuild
+# EOL 2022-11-28
+# renovate: datasource=docker depName=php versioning=docker
 ENV PHP_VERSION=7.4.24
 
-# renovate: datasource=github-releases depName=containerbase/php-prebuild
+# EOL 2023-11-26
+# renovate: datasource=docker depName=php versioning=docker
 ENV PHP_VERSION=8.0.11
