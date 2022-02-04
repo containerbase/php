@@ -1,7 +1,7 @@
 # renovate: datasource=github-releases depName=containerbase/php-prebuild
 ARG PHP_VERSION=7.4.27
 
-FROM ghcr.io/containerbase/buildpack:1.19.7@sha256:2a09856aa60525450d1d50b8575c73e88fbbacb95f242421f292dc87487cce28
+FROM ghcr.io/containerbase/buildpack:3.3.1@sha256:a6ac6dc0b781be64c64bfe40c9d7f746954bf8b0d768aff9b67f08d0df1c7926
 
 ARG PHP_VERSION
 RUN install-tool php
